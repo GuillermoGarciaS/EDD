@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 /*Test*/
-/*Test*/
+
 public class autobus {
 
     /* Creación de la lista y del scanner para leer las opcciones del menu */
