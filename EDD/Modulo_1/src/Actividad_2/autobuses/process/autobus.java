@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 /*Test*/
-/*Test*/
+
 public class autobus {
 
     /* Creación de la lista y del scanner para leer las opcciones del menu */
@@ -30,6 +30,8 @@ public class autobus {
         Scanner scannerEliminarPasajero = new Scanner(System.in);
             System.out.println("Ingresa los datos del pasajero a eliminar");
             String pasajeroABorrar = scannerEliminarPasajero.nextLine();
+
+            /* Aqui se corrobora si el pasajero fue eliminado exitosamente o no */
             boolean eliminado = listaAutobus.remove(pasajeroABorrar);
             if (eliminado == true){
                 System.out.println("Pasajero eliminado exitosamente");
@@ -42,6 +44,7 @@ public class autobus {
     public static void visualizarDatos() {
 
             System.out.println("Lista de pasajeros");
+            /* Este comando nos permite imprimir la lista actual de pasajeros */
             System.out.println(listaAutobus);
     }
 
