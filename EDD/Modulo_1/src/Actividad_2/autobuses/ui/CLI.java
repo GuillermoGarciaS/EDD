@@ -2,6 +2,7 @@ package Modulo_1.src.Actividad_2.autobuses.ui;
 
 import Modulo_1.src.Actividad_2.autobuses.process.autobus;
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class CLI {
@@ -40,5 +41,9 @@ public class CLI {
         
         } while (opcion != 4);
         
+    }
+
+    public static String seleccionarJugador(LinkedList jugadoresDisponibles) {
+        return null;
     }
 }
